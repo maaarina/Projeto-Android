@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Ubuntu Mono', monospace;
+Android', cursive
+font-family: 'Audiowide', cursive*/
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Ubuntu+Mono:wght@400;700&display=swap');
 
 @font-face {
     font-family: 'Android';
@@ -20,8 +24,8 @@
     --cor6:#063d1e;
 
     --font-padrão: Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque:'Bebas Neue', cursive;
-    --font-android: 'Android', cursive;
+    --font-destaque:'Audiowide', monospace;
+    --font-android: 'Android', monospace;
 }
 
 *{
@@ -71,7 +75,7 @@ nav{
 
 nav a{
     color: white;
-    padding:10px;
+    padding: 3px;
     text-decoration: none;
 }
 
@@ -125,6 +129,7 @@ main img.bugdroid{
 main h1{
     color:#063d1e ;
     font-family: var(--font-android);
+    font-size: 28px;
 }
 
 main h2{
